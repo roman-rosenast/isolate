@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isolate</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB9Ml19jnOf5RqqbBFww8Fbqz37yfJo3iE",
+        authDomain: "isolate-cf36b.firebaseapp.com",
+        databaseURL: "https://isolate-cf36b.firebaseio.com",
+        projectId: "isolate-cf36b",
+        storageBucket: "isolate-cf36b.appspot.com",
+        messagingSenderId: "961478569511"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.2.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.2.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.2.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.2.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.2.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id=root></div>
+
+
+  </body>
+</html>

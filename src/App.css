@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+.App {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.header-icon {
+  height: 60px;
+  margin-top: 7.5px;
+  margin-right: -50px;
+  float: left;
+}
+
+.header1 {
+  width: 100%;
+  float: left;
+  background-color: #FF8207;
+  height: 100px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header2 {
+  width: 100%;
+  float: left;
+  background-color: #D53D0C;
+  height: 100px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header-wrapper {
+
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-left: -30px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.buttonbg {
+  background-color: red;
+}
+
+/* Styles for Intro Component */
+.intro1 {
+  height: 77.5vh;
+  background-color: #880606;
+  color: white;
+  padding-top: 40%;
+  font-size: 40pt;
+
+}
+
+.intro2 {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  margin-top: -27px;
+
+}
+
+.centeredText {
+  line-height: 240px;
+}
+
+.day1, .day2, .day3 {
+  font-size: 20pt;
+  height: 30%;
+  margin-bottom: -40px;
+  color: white;
+  height: 34.5%;
+
+}
+
+.day1 {
+  background-color: #880606;
+}
+
+.day2 {
+  background-color: #D53D0C;
+}
+
+.day3 {
+  background-color: #FF8207;
+}
+
+.endIntro {
+  display: hidden;
+}
+
+/* Styles for Day Component */
+.dayTitle {
+  margin-top: 10px;
+  font-size: large;
+}
+
+/* Styles for Workout Component */
+.workoutTitle {
+  margin-top: 25px;
+  font-size: large;
+}
+
+/* Styles for Set Component */
+.endSetButton {
+  font-size: 1.5em;
+  outline: none;
+  background-color: #169A;
+  font-family: 'Bree Serif', serif;
+}
+
+.downTimerContainer {
+  outline: none;
+  background-color: #969D;
+}
+
+.centeredElement {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.centeredTime {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 50pt;
+}
+
+.cooldownReminder {
+  position: relative;
+  font-size: 30pt;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spacer {
+  height: 280px;
+}
